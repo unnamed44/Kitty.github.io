@@ -5,8 +5,8 @@ title_separator : "-"
 name            : "Pinkie Pie"
 description     : "Simple, easy, modular event handling through a TERA proxy server."
 url             : "https://proninetyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.github.io"
-baseurl         : "/test"
-repository      : "tera-proxy/tera-proxy"
+baseurl         : "/Kitty.github.io"
+repository      : "proninetyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.github.io/Kitty.github.io"
 teaser          : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 
 # Social Sharing
