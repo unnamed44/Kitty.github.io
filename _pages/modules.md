@@ -12,7 +12,7 @@ categories:
 - header: Notable Modules
   description: "The big guns. These modules are more than simple scripts."
   modules:
-  - repo: caali/battle-notify
+  - repo: caali-hackerman/battle-notify
     desc: Shows text notifications on configurable in-game events.
 - header: Quality of Life
   description: "These modules are relatively benign, and there's likely little risk to using these. But they *will* make your life better, probably."
@@ -20,7 +20,6 @@ categories:
   - repo: TeraProxy/AFKer
     desc: Prevents the client from going back to character selection.
   - repo: tera-mods/auto-vanguard
-    author: Pinkie Pie
     desc: Automatically turns in Vanguard quests upon completion.
   - repo: teralove/camera-distance
     desc: Removes limit on the camera's max range.
@@ -45,7 +44,6 @@ categories:
   - repo: caali-hackerman/skill-resets
     desc: Pops up a message whenever a skill resets.
   - repo: tera-mods/no-cutscenes
-    author: Pinkie Pie
     desc: No more mashing Esc after killing a boss. Pretend cutscenes don't even exist.
   - repo: Saegusae/looks
     desc: Copies the character's appearance of yourself or other nearby players.
@@ -53,14 +51,12 @@ categories:
   description: "Where the line starts getting blurred. If you use these and it gets noticed... Well, no promises."
   modules:
   - repo: tera-mods/auto-negotiate
-    author: Pinkie Pie
     desc: Automatically accepts or declines broker negotiations. Configurable.
   - repo: TeraProxy/Essentials
     desc: Automatically uses Nostrum/Battle Solution" and Complete Crystalbind items whenever needed.
   - repo: TeraProxy/Cosplayer
     desc: Allows wearing anything client-sided through UI selection.
   - repo: tera-mods/fly-forever
-    author: Pinkie Pie
     desc: Ignores flying mount stamina for infinite flying.
   - repo: Risenio/fps-utils
     desc: A compilation of utilities to improve fps, includes disabling fireworks effects.
@@ -69,7 +65,7 @@ categories:
   - repo: Risenio/let-me-drink
     desc: Automatically uses "Lein's Dark Root Beer" at certain usage of skills.
   - repo: Risenio/let-me-lock
-    desc: Automatically locks on players for healing/cleansing | npcs for debuff/dps purposes.
+    desc: Automatically locks on players for healing/cleansing \| npcs for debuff/dps purposes.
   - repo: teralove/auto-heal
     desc: Automatically skips lockons and instantly heals and cleanses party members.
   - repo: TeraProxy/Teabagger
@@ -104,8 +100,8 @@ If you want to be added to this list, or you think a module has been miscategori
 
 For any other kind of module, you may want to take a look at public repositories or websites. Below is a list of module developers on GitHub, along with links to other sources where you may find more information or modules not publicly posted.
 
-* [{% avatar pinkipi %} pinkipi][@PinkiePie] &ndash; [Discord](https://discord.gg/RR9zf85)
-* [{% avatar caali-hackerman %} caali-hackerman][@caali] &ndash; [Discord](https://discord.gg/dUNDDtw)
+* [{% avatar pinkipi %} Pinkie Pie][@tera-mods] &ndash; [Discord](https://discord.gg/RR9zf85)
+* [{% avatar caali-hackerman %} caali-hackerman][@caali-hackerman] &ndash; [Discord](https://discord.gg/dUNDDtw)
 * [{% avatar Saegusae %} Saegusae][@Saegusae]
 * [{% avatar teralove %} teralove][@teralove]
 * [{% avatar TeraProxy %} TeraProxy][@TeraProxy]
@@ -115,7 +111,7 @@ For any other kind of module, you may want to take a look at public repositories
 tera-proxy is just one of many projects aimed at modding and extending TERA functionality. These related projects are not modules; they are standalone programs that do their own thing with or without tera-proxy.
 
 * [ShinraMeter](https://github.com/neowutran/ShinraMeter) ([@neowutran], [@Gl0]): A TERA DPS meter. &ndash; [Discord](https://discord.gg/anUXQTp)
-* [Tera Custom Cooldowns](https://github.com/Foglio1024/Tera-custom-cooldowns) ([@Foglio1024]): Replaces some TERA UI elements with sleek and responsive designs. &ndash; [Discord](https://discord.gg/anUXQTp)
+* [Tera Custom Cooldowns](https://github.com/Foglio1024/Tera-custom-cooldowns) ([@Foglio1024]): Replaces some TERA UI elements with sleek and responsive designs.
 
 
 
@@ -125,8 +121,10 @@ tera-proxy is just one of many projects aimed at modding and extending TERA func
 [@Gl0]: <https://github.com/Gl0> "Gl0"
 [@Mister-Kay]: <https://github.com/mister-kay>
 [@neowutran]: <https://github.com/neowutran> "Yukikoo"
-[@PinkiePie]: <https://github.com/tera-mods> "Pinkie Pie"
+[@pinkipi]: <https://github.com/tera-mods>
+[@tera-mods]: <https://github.com/tera-mods> "Pinkie Pie"
 [@Saegusae]: <http://github.com/saegusae> "Seagoose"
 [@teralove]: <https://github.com/teralove>
 [@TeraProxy]: <https://github.com/TeraProxy>
-[@caali]: <https://github.com/caali-hackerman>
+[@caali-hackerman]: <https://github.com/caali-hackerman>
+[@Risenio]: <https://github.com/Risenio>
