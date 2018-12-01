@@ -4,8 +4,6 @@ main:
     url: /user-guide
   - title: "Developer Guide"
     url: /developer-guide
-  - title: "Changelog"
-    url: /changes
   - title: "Module Directory"
     url: /modules
   - title: '<i class="fa fa-github fa-lg" aria-hidden="true"></i> GitHub'

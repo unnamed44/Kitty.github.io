@@ -69,11 +69,3 @@ defaults:
       type: pages
     values:
       layout: single
-  # _changes
-  - scope:
-      path: ""
-      type: changes
-    values:
-      layout: version
-      sidebar:
-        nav: "changes"
