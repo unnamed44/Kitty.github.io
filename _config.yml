@@ -1,0 +1,79 @@
+# Site Settings
+locale          : "en-US"
+title           : "TERA Proxy"
+title_separator : "-"
+name            : "Pinkie Pie"
+description     : "Simple, easy, modular event handling through a TERA proxy server."
+url             : "https://proninetyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.github.io"
+baseurl         : "/test"
+repository      : "tera-proxy/tera-proxy"
+teaser          : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+
+# Social Sharing
+og_image        : "/assets/images/site-icon.png"
+
+# Site Author
+author:
+  name          : "Pinkie Pie"
+  avatar        : "https://avatars.githubusercontent.com/pinkipi"
+  bio           : "A lonely pony looking for place to sleep."
+  location      : "Everywhere (N/A)"
+  email         :
+  uri           :
+  github        : "pinkipi"
+  youtube       : "https://www.youtube.com/watch?v=rhTWPHzBPoA"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Gemfile
+  - LICENSE
+
+# Sass/SCSS
+sass:
+  style: compressed
+
+# Outputting
+timezone: America/Los_Angeles
+
+# Plugins
+gems: &gems
+  - jekyll-avatar
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+# mimic GitHub Pages with --safe
+whitelist: *gems
+
+# Collections
+collections:
+  changes:
+    output: true
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+  # _changes
+  - scope:
+      path: ""
+      type: changes
+    values:
+      layout: version
+      sidebar:
+        nav: "changes"
